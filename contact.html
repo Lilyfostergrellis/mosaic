@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+    <title>mosaic-contact</title>
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
+    <!-- NAVBAR TOP -->
+    <div class="container">
+        <div class="navbar-top">
+            <div class="social-link">
+                <i class="bx bxl-twitter"></i>
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-google"></i>
+                <i class="bx bxl-instagram"></i>
+            </div>
+            <div class="logo">
+                <h3>mosaic</h3>
+            </div>
+            <div class="icons">
+                <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAd1JREFUaEPtmQtOxDAMRL0nYzkZcDKWk4GMGimkdvzJeKuiVkJil3zmjaetW2508uN2cv10ARxdwasCZ6zA+yb6hYjuRPTYPn9tv7fPGhvP4R8+eI3++OjWc3kTiRALf3OtSvQqCInMZ5Bm1HRLDwC79ekU3g/jSjRHI+L7NSQj/kixALIbJ3jVKdNqzABmzvOifPR553i1bFsA0flqJWYA34IKTzY5bhqINZ/naUaIWjUAKTrW5j3v0+ZrAKP7HBUuY+To3YzAtz0kE3Z6JQAp+9bJHgGLjB2N3BkhCRsznHE/InI2dqxCCsC8FqPUCuuMADszpQqMZTsSwIzzvwQYz4HMFQSVqrECrgiZJw5KnWMd84IiRch1/XVsjhhino/eG9kRMZJaEteNjJ1bbQVW3XfvX9HMVYjnNUPNHE/Q2unKOGnPH6l2WosSf18BoYlPP9DMukI0REq8mitHT9KGICqRFh8BqIrTkvgoABpiWXwGAAUBEZ8FWIWAiV8ByEJAxa8CRCHg4hEAXogS8SgAC4L/Lr0URtxDoP9iirxHhYhHVsBqO/qbO0x8BcAsTuj+6deUqjdu7gcSoe8KfVUFMFYCGpuesBIg5GR28AWQdQ4176oAysnsOqevwA8NZYYx/23K1AAAAABJRU5ErkJggg=="width="20px"></i>
+                <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAbhJREFUaEPtmDFSxDAMRf82VFScCA4EVwAaLsCBWA4EFRUNjJiY2VEU51uRHWfG6XbH8urpS9/enHDw53Tw/DEA9lZwKNCjAj9GUmcA7wCe9k5Y/77VQhZAinvuDaIUQEDuAIgiXTweAEleILp4GBe6BfCmsu1GBQZAchcAAUlPNyqwAJYKbGzVVitJQqvQRRuVAFgqVK2usfnMxksAZL/cGdECZjZ7pQC6jVoknT18SwH2bqPNLdTaUnXLzoyjVAEBaGWpcnF8XDt7PADWMNewVD1v5kXSC1D7ZKZV9gLUvh/p9lm8xnsBag+zHt4qALTMhYeFrr6ELxZ6iwKWChHDTLdPloysmlYh4pq96v2XuW1VINpSKe+PBoi0VMr7owGiLNVlChEtZA0zOULZZdQrnCiAGrfUpgA1/uxQxaUWkf0QpULRa8xIAJIzdtkAuKjnzfTi93767nX6/LlSc2/c37ZRClwDeAGQkk85C8RDBsAb979lFIBU8WMh0dxveOMGgC62txW8ceEKyIbeYfTGhQ5xqohU9Gr68A3gi3R9b1yYC5F5xi+LcqH4zMgdBwBZqGrLDq/AL4HOZjH//bJXAAAAAElFTkSuQmCC" width="20px"/></i>
+                <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAfBJREFUaEPtmWFOBDEIhdmTqSfTPZl6Mg3JkjQEWh7Q3Zlk5s+q6VA+eNAt3ujkz+3k/tMF8OoMVjPwTkSfAwT/zs/P4/P38fm1CzQL8E1E4mzUtzsRtYOgAOzAGPGo8+O6VhAEIBN1D5Al9pGh1+9EAETnlmRE6xzVUfu8VtbPMsYQYiPFEwH4Myzzpux0dHNPeuVMrAAs2VQ2tUAq9qYHmbVZRwG22p1lQEunw3lRo5XZlRrMGvFesqKU2mBSmRoiJSXPqZ3RFybuUgwxPnCQrBeeEX1PSnBbjQB0al8rqiwjC0Ab3QmgZQTXQQQATitwpG4B0AUMFxYAwEtL+1nOlQyCzm8B0DXwTAkxEJTxV9eAbtlbihg2CshIA8Adz8pAuTMAAOUTP/pVYkcdtJz4HkD5hAxkoRz9VcXrDTproSX6K4DWi8eQkVa7q55rXTzgTjE47002Vn64ioy86G2KgMwmG+wcYgu+QFgXj9HIOFKRKYUeqUSmeCmISAZm99hAszGXMKgFBUMgAOxJ52jRswVBoAASzgyINQwrQ2QBRhD++e3xBz1elwKdTfBKEFWAbA3o99IQRwGY1de0Jo4EMINwv0weDcCCOFUGdJdbttQjZkAguKMt//9wZIBQh7sAQmHauOjKwMbghkyfPgP/ceZ8MX3RV60AAAAASUVORK5CYII=" width="20px"/></i>
+            </div>
+        </div>
+    </div>
+
+<!--TO DO
+- add a section for insta posts, i.e 'what our customers have loved..'
+- add a section for recent linkedin posts
+- trustpilot recent review section
+- seperate stylesheet for the webpage, maintain original style for heaader, navbar & footer
+-->
+    
+<!--FOOTER SECTION-->
+    <footer id="footer">
+        <h1 class="text-center">mosaic</h1>
+        <p class="text-center">inspire, excite, and redefine your personal sense of style.</p>
+        <div class="icons text-center">
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-google"></i>
+            <i class="bx bxl-skype"></i>
+            <i class="bx bxl-instagram"></i>
+        </div>
+        <div class="copyright text-center">
+            &copy; Copyright <strong><span>mosaic</span></strong>
+        </div>
+    </footer>
+
 </body>
 </html>
