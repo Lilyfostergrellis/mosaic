@@ -20,6 +20,27 @@
 
 </head>
 <body>
+
+<!-- NAVBAR TOP -->
+  <div class="container">
+    <div class="navbar-top">
+        <div class="social-link">
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-google"></i>
+            <i class="bx bxl-instagram"></i>
+        </div>
+        <div class="logo">
+            <h3>mosaic</h3>
+        </div>
+        <div class="icons">
+            <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAd1JREFUaEPtmQtOxDAMRL0nYzkZcDKWk4GMGimkdvzJeKuiVkJil3zmjaetW2508uN2cv10ARxdwasCZ6zA+yb6hYjuRPTYPn9tv7fPGhvP4R8+eI3++OjWc3kTiRALf3OtSvQqCInMZ5Bm1HRLDwC79ekU3g/jSjRHI+L7NSQj/kixALIbJ3jVKdNqzABmzvOifPR553i1bFsA0flqJWYA34IKTzY5bhqINZ/naUaIWjUAKTrW5j3v0+ZrAKP7HBUuY+To3YzAtz0kE3Z6JQAp+9bJHgGLjB2N3BkhCRsznHE/InI2dqxCCsC8FqPUCuuMADszpQqMZTsSwIzzvwQYz4HMFQSVqrECrgiZJw5KnWMd84IiRch1/XVsjhhino/eG9kRMZJaEteNjJ1bbQVW3XfvX9HMVYjnNUPNHE/Q2unKOGnPH6l2WosSf18BoYlPP9DMukI0REq8mitHT9KGICqRFh8BqIrTkvgoABpiWXwGAAUBEZ8FWIWAiV8ByEJAxa8CRCHg4hEAXogS8SgAC4L/Lr0URtxDoP9iirxHhYhHVsBqO/qbO0x8BcAsTuj+6deUqjdu7gcSoe8KfVUFMFYCGpuesBIg5GR28AWQdQ4176oAysnsOqevwA8NZYYx/23K1AAAAABJRU5ErkJggg=="width="20px"></i>
+            <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAbhJREFUaEPtmDFSxDAMRf82VFScCA4EVwAaLsCBWA4EFRUNjJiY2VEU51uRHWfG6XbH8urpS9/enHDw53Tw/DEA9lZwKNCjAj9GUmcA7wCe9k5Y/77VQhZAinvuDaIUQEDuAIgiXTweAEleILp4GBe6BfCmsu1GBQZAchcAAUlPNyqwAJYKbGzVVitJQqvQRRuVAFgqVK2usfnMxksAZL/cGdECZjZ7pQC6jVoknT18SwH2bqPNLdTaUnXLzoyjVAEBaGWpcnF8XDt7PADWMNewVD1v5kXSC1D7ZKZV9gLUvh/p9lm8xnsBag+zHt4qALTMhYeFrr6ELxZ6iwKWChHDTLdPloysmlYh4pq96v2XuW1VINpSKe+PBoi0VMr7owGiLNVlChEtZA0zOULZZdQrnCiAGrfUpgA1/uxQxaUWkf0QpULRa8xIAJIzdtkAuKjnzfTi93767nX6/LlSc2/c37ZRClwDeAGQkk85C8RDBsAb979lFIBU8WMh0dxveOMGgC62txW8ceEKyIbeYfTGhQ5xqohU9Gr68A3gi3R9b1yYC5F5xi+LcqH4zMgdBwBZqGrLDq/AL4HOZjH//bJXAAAAAElFTkSuQmCC" width="20px"/></i>
+            <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAfBJREFUaEPtmWFOBDEIhdmTqSfTPZl6Mg3JkjQEWh7Q3Zlk5s+q6VA+eNAt3ujkz+3k/tMF8OoMVjPwTkSfAwT/zs/P4/P38fm1CzQL8E1E4mzUtzsRtYOgAOzAGPGo8+O6VhAEIBN1D5Al9pGh1+9EAETnlmRE6xzVUfu8VtbPMsYQYiPFEwH4Myzzpux0dHNPeuVMrAAs2VQ2tUAq9qYHmbVZRwG22p1lQEunw3lRo5XZlRrMGvFesqKU2mBSmRoiJSXPqZ3RFybuUgwxPnCQrBeeEX1PSnBbjQB0al8rqiwjC0Ab3QmgZQTXQQQATitwpG4B0AUMFxYAwEtL+1nOlQyCzm8B0DXwTAkxEJTxV9eAbtlbihg2CshIA8Adz8pAuTMAAOUTP/pVYkcdtJz4HkD5hAxkoRz9VcXrDTproSX6K4DWi8eQkVa7q55rXTzgTjE47002Vn64ioy86G2KgMwmG+wcYgu+QFgXj9HIOFKRKYUeqUSmeCmISAZm99hAszGXMKgFBUMgAOxJ52jRswVBoAASzgyINQwrQ2QBRhD++e3xBz1elwKdTfBKEFWAbA3o99IQRwGY1de0Jo4EMINwv0weDcCCOFUGdJdbttQjZkAguKMt//9wZIBQh7sAQmHauOjKwMbghkyfPgP/ceZ8MX3RV60AAAAASUVORK5CYII=" width="20px"/></i>
+        </div>
+    </div>
+ </div>
+
     
 <!--FOOTER SECTION-->
     <footer id="footer">
