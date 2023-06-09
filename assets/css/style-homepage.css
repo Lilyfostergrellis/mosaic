@@ -114,7 +114,7 @@
     cursor: pointer;
 }
 #tpc:hover{
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 
 /***** CARD 3 *****/
